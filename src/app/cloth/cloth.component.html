@@ -1,0 +1,134 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-3">
+                <div class="tym">
+                    <h3>{{time | date:" hh:mm"}}</h3>
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-9 col-9 text-end">
+                <div class="stausbar">
+                    <i class="fas fa-signal me-3"></i>
+                    <i class="fas fa-wifi me-3"></i>
+                    <i class="fas fa-battery-full me-3"></i> 
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<h1 class="text-center sectionheading my-5">All Varieties</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 skillsleft">
+            <div class="card1" style="width: 15rem;">
+                <img src="/assets/orange_tshirt.webp" class="card-img-top" alt="...">
+                <h5 class="card-title">Funkey Orange</h5><br>
+                <h4>Price: ₹599</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                    <a routerLink="cloth1" class="btn btn-primary"
+                        (click)="cloth1('Funkey Orange','/assets/orange_tshirt.webp', '599')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillscenter">
+            <div class="card1" style="width: 15rem;">
+                <img src="/assets/green_tshirt.webp" class="card-img-top" height="250px" width="900px">
+                <h5 class="card-title">Peaceful color</h5>
+                <h4>Price:₹999</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                    <a routerLink="cloth1" class="btn btn-primary"
+                        (click)="cloth1('Animation T-Shirt', '/assets/green_tshirt.webp', '999')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillsright">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/white_tshirt.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title">Animation T-Shirt</h5>
+                <h4>Price:₹1099</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                    <a routerLink="cloth1" class="btn btn-primary"
+                        (click)="cloth1('Animation T-Shirt', 'assets/white_tshirt.jpg', '1099')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 skillsleft">
+            <div class="card1" style="width: 15rem;">
+                <img src="/assets/white_crop.webp" class="card-img-top" alt="...">
+                <h5 class="card-title">White Crop</h5>
+                <div class="card-body">
+                    <h4>Price:₹4000</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="cloth1" class="btn btn-primary"
+                        (click)="cloth1('White Crop', '/assets/white_crop.webp', '4000')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillcenter">
+            <div class="card1" style="width: 15rem;">
+                <img src="/assets/plazo.webp" class="card-img-top" alt="...">
+                <h5 class="card-title">Plazo</h5>
+                    <h4>Price:₹1099</h4>
+                    <h6>include all taxes</h6>
+                    <div class="card-body">
+                    <a routerLink="cloth1" class="btn btn-primary"
+                        (click)="cloth1('Plazo', '/assets/plazo.webp', '1099')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+           <div class="col-md-4 skillsright">
+            <div class="card1" style="width: 15rem;">
+                <img src="/assets/665145-6826314.webp" class="card-img-top" alt="...">
+                <h5 class="card-title">High-wested-Jogger</h5>
+                <div class="card-body">
+                    <h4>Price:₹2099</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="cloth1" class="btn btn-primary"
+                        (click)="cloth1('High-wested-Jogger', '/assets/665145-6826314.webp', '2099')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 skillsleft">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/cotton short.jfif" class="card-img-top" alt="...">
+                <h5 class="card-title">Shorts</h5>
+                <h4>Price:₹2099</h4>
+                    <h6>include all taxes</h6>
+                    <div class="card-body">
+                    <a routerLink="cloth1" class="btn btn-primary"
+                        (click)="cloth1('Shorts', 'assets/cotton short.jfif', '2099')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillscenter">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/pants1.webp" class="card-img-top" alt="...">
+                <h5 class="card-title">Smart Look</h5>
+                    <h4>Price:₹1099</h4>
+                    <h6>include all taxes</h6>
+                    <div class="card-body">
+                    <a routerLink="cloth1" class="btn btn-primary"
+                        (click)="cloth1('Smart Look', 'assets/pants1.webp', '1099')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillsright">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/Hoatzin-clr-green-front-min_840x.webp" class="card-img-top">
+                <h5 class="card-title">Dashing</h5>
+              <h4>Price:₹9099</h4>
+                    <h6>include all taxes</h6>
+                    <div class="card-body">
+                    <a routerLink="cloth1" class="btn btn-primary"
+                        (click)="cloth1('Dashing', 'assets/pants1.webp', '11099')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>

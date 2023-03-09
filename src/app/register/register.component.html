@@ -1,0 +1,35 @@
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-3">
+        <div class="tym">
+          <h3>{{time | date:" hh:mm" }}</h3>
+        </div>
+      </div>
+      <div class="col-md-9 col-sm-9 col-9 text-end">
+        <div class="stausbar">
+          <i class="fas fa-signal me-3"></i>
+          <i class="fas fa-wifi me-3"></i>
+          <i class="fas fa-battery-full me-3"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="container2">
+  <button (click)="log()">Log In</button>
+  <button class="btn btn-danger">Register</button><br><br>
+  <form class="form m-3 w-50" [formGroup]="registerForm" (ngSubmit)="onSubmit(registerForm)">
+  <label for="email">Email</label>
+  <input type="email" id="mail" name="mail" formControlName="email"><br><br>
+  <label for="password">Password</label>
+  <input type="password" class="formcontrol" formControlName="password"><br><br>
+  <button type="submit" class="btn btn-primary">Register</button>
+  <h3>----Or register with----</h3>
+  <div class="pic">
+  <img src="assets/googlelogo.jpg" height="60px"
+        width="60px">
+
+
+    </div>
+  </form>

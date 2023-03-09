@@ -1,0 +1,133 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-3">
+                <div class="tym">
+                    <h3>{{time | date:" hh:mm"}}</h3>
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-9 col-9 text-end">
+                <div class="stausbar">
+                    <i class="fas fa-signal me-3"></i>
+                    <i class="fas fa-wifi me-3"></i>
+                    <i class="fas fa-battery-full me-3"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<h1 class="text-center sectionheading my-5">All Varieties</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 skillsleft">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/phone1.jpg" class="card-img-top" height="250px">
+                <h5 class="card-title">One Plus</h5><br>
+                <h4>Price: ₹28,999</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                    <a routerLink="phones1" class="btn btn-primary"
+                        (click)="phone('One Plus','assets/phone1.jpg','28,999' )">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillscenter">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/phone2.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Nokia Luxury</h5>
+                <h4>Price:₹59,999</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                    <a routerLink="phones1" class="btn btn-primary"
+                        (click)="phone('Nokia Luxury','assets/phone2.jfif','55,999' )">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillsright">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/phone3.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">iphone14</h5>
+                <h4>Price:₹14,999</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                    <a routerLink="phones1" class="btn btn-primary"
+                        (click)="phone('iphone14','assets/phone3.jfif','14,999' )">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="col-md-4 skillsleft">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/phone4.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Slim like plus</h5>
+                <div class="card-body">
+                    <h4>Price:₹22,999</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="phones1" class="btn btn-primary"
+                        (click)="phone('Slim like plus','assets/phone4.jfif','22,999' )">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillcenter">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/phone5.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Pink Telephone</h5>
+                <div class="card-body">
+                    <h4>Price:16,999</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="phones1" class="btn btn-primary"
+                        (click)="phone('Pink Telephone','assets/phone3.jfif',',16,999' )">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillsright">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/phone6.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Vivo Blue</h5>
+                <div class="card-body">
+                    <h4>Price:₹35,889</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="phones1" class="btn btn-primary"
+                        (click)="phone('Vivo Blue','assets/phone6.jfif','35,889' )">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-md-4 skillsleft">
+                <div class="card1" style="width: 15rem;">
+                    <img src="assets/phone7.jfif" class="card-img-top" height="250px">
+                    <h5 class="card-title">Micromax HD</h5>
+                    <div class="card-body">
+                        <h4>Price:₹22,999</h4>
+                        <h6>include all taxes</h6>
+                        <a routerLink="phones1" class="btn btn-primary"
+                            (click)="phone('Micromax HD','assets/phone7.jfif','22,999' )">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 skillscenter">
+                <div class="card1" style="width: 15rem;">
+                    <img src="assets/phone8.jfif" class="card-img-top" height="250px">
+                    <h5 class="card-title">Dell Black</h5>
+                    <h4>Price:₹65,999</h4>
+                    <h6>include all taxes</h6>
+                    <div class="card-body">
+                        <a routerLink="phones1" class="btn btn-primary"
+                            (click)="phone('Dell Black','assets/phone8.jfif','65,999' )">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 skillsright">
+                <div class="card1" style="width: 15rem;">
+                    <img src="assets/phone9.jfif" class="card-img-top" height="250px">
+                    <h5 class="card-title"> Blueberry</h5>
+                    <h4>Price:₹30,999</h4>
+                    <h6>include all taxes</h6>
+                    <div class="card-body">
+                        <a routerLink="phones1" class="btn btn-primary"
+                         (click)="phone('Blueberry','assets/phone9.jfif','30,999')">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>

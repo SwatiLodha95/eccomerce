@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "shopping-a8182",
+    "e-commerce": "shopping-a8182"
+  },
+  "targets": {},
+  "etags": {}
+}

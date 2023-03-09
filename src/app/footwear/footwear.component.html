@@ -1,0 +1,131 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-3">
+                <div class="tym">
+                    <h3>{{time | date:" hh:mm"}}</h3>
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-9 col-9 text-end">
+                <div class="stausbar">
+                    <i class="fas fa-signal me-3"></i>
+                    <i class="fas fa-wifi me-3"></i>
+                    <i class="fas fa-battery-full me-3"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<h1 class="text-center sectionheading my-5">All Varieties</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 skillsleft">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/belly.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">White Belly</h5><br>
+                <h4>Price: ₹3199</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                    <a routerLink="footwear1" class="btn btn-primary"
+                        (click)="foot('White Belly', 'assets/belly.jfif', '₹3199')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillscenter">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/shoes.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Sports Shoes</h5>
+                <h4>Price:₹6999</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                    <a routerLink="footwear1" class="btn btn-primary"
+                        (click)="foot('Sports Shoes' , 'assets/shoes.jfif', '₹6999')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillsright">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/sliper.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Comfort Footwear</h5>
+                <h4>Price:₹1299</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                    <a routerLink="footwear1" class="btn btn-primary"
+                        (click)="foot('Comfort Footwear' , 'assets/sliper.jfif', '₹1299')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="col-md-4 skillsleft">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/heels.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Black Heels</h5>
+                <div class="card-body">
+                    <h4>Price:₹1400</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="footwear1" class="btn btn-primary"
+                        (click)="foot('Black Heels' , 'assets/heels.jfif', '₹1400')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillcenter">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/comfort footwear.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Most Comfortable</h5>
+                <div class="card-body">
+                    <h4>Price:₹6099</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="footwear1" class="btn btn-primary"
+                        (click)="foot('Most Comfortable' , 'assets/comfort footwear.jfif', '₹6099')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillsright">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/formals.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Formals</h5>
+                <div class="card-body">
+                    <h4>Price:₹6099</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="footwear1" class="btn btn-primary"
+                        (click)="foot('Formals' , 'assets/formals.jfif', '₹6099')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="col-md-4 skillsleft">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/swim.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Swim Comfort</h5>
+                <div class="card-body">
+                    <h4>Price:₹4999</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="footwear1" class="btn btn-primary"
+                        (click)="foot('Swim Comfort' , 'assets/swim.jfif', '₹4999')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillscenter">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/slide.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Slide Women Footwear</h5>
+                <div class="card-body">
+                    <h4>Price:₹5000</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="footwear1" class="btn btn-primary"
+                        (click)="foot('Slide Women Footwear' , 'assets/slide.jfif', '₹5000')">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillsright">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/dr comfort.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Dr Comfort</h5>
+                <div class="card-body">
+                    <h4>Price:₹5489</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="footwear1" class="btn btn-primary"
+                        (click)="foot('Dr Comfort','assets/dr comfort.jfif','₹5489')">Buy Now</a>
+                </div>
+            </div>
+        </div>

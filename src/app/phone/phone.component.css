@@ -1,0 +1,21 @@
+header {
+    padding: 12px 0;
+    background-color: rgba(0, 114, 131, 0.24);
+}
+.rowtext {
+    position: absolute;
+    top: 60%;
+    margin-left: 30%;
+    color: rgb(124, 110, 110);
+    padding: 10px;
+
+}
+.rowtext h1 {
+    font-family: 'Lucida handwriting';
+    font-weight: bolder;
+    font-size: 100px;
+    
+}
+
+  
+ 

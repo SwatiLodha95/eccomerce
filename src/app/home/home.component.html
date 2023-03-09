@@ -1,0 +1,56 @@
+<header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-3">
+          <div class="tym">
+            <h3>{{time | date:"hh:mm" }}</h3>
+        </div>
+        </div>
+        <div class="col-md-9 col-sm-9 col-9 text-end">
+          <div class="stausbar">
+            <i class="fas fa-signal me-3"></i>
+            <i class="fas fa-wifi me-3"></i>
+            <i class="fas fa-battery-full me-3"></i>  
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="search-container">
+      <form action="searchBar" class="text-center">
+        <input type="text" placeholder="Search" name="search">
+        <button type="submit"><i class="fa fa-search me-3"></i></button>
+      </form>
+    </div>
+  </header>
+  
+  <div class="container">
+<div class="offcanvas offcanvas-start" id="demo">
+<div class="offcanvas-header">
+  <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+ <h1 class="offcanvas-title">All Categories</h1>
+  </div>
+  <div class="offcanvas-body">
+</div>
+   <p  routerLink="cloth" (click)="cloth()">Dresses<img src="assets/cloths.jfif" height="40px" width="40px"></p>
+   <p  routerLink="cosmatics" (click)="cosmatics()">Cosmatics<img src="assets/cosm1.jfif" height="40px" width="40px"></p>
+   <p  routerLink="footwear" (click)="footwear()">Footwear<img src="assets/footwear-colored-icons-set_98292-3308.avif" height="40px" width="40px"></p>
+   <p  routerLink="smart-watch" (click)="smartwatch()">Smart Watch<img src="assets/Smartwatches-lined-up-for-2022.webp" height="40px" width="40px"></p>
+   <p  routerLink="fasion" (click)="fasion()">Fasion Accessories<img src="assets/asse.jfif" height="40px" width="40px"></p>
+   <p  routerLink="phone" (click)="phone()">Smart Phone<img src="assets/smartphone.jfif" height="40px" width="40px"></p>
+   <p routerLink="jacket" (click)="jacket()">Jacket<img src="assets/jacket.jfif" height="40px" width="40px"></p>
+   <p  routerLink="sunglass" (click)="sunglass()">Sun Glasses<img src="assets/sunglasses.jpg" height="40px" width="40px"></p>
+   <p  routerLink="crock" (click)="crock()">Crockery<img src="assets/crocery.jpg" height="40px" width="40px"></p>
+ </div>
+</div>
+
+<div class="container"> 
+<button type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+  <span class="icone"><i class="fas fa-bars"></i></span>
+  </button>
+</div>
+
+ <app-mainheader></app-mainheader>
+ 
+ <a routerLink="mainheader"></a>
+ <router-outlet></router-outlet>
+

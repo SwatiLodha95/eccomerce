@@ -1,0 +1,127 @@
+<header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-3">
+          <div class="tym">
+            <h3>{{time | date:" hh:mm"}}</h3>
+        </div>
+        </div>
+        <div class="col-md-9 col-sm-9 col-9 text-end">
+          <div class="stausbar">
+            <i class="fas fa-signal me-3"></i>
+            <i class="fas fa-wifi me-3"></i>
+            <i class="fas fa-battery-full me-3"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<h1 class="text-center sectionheading my-5">All Varieties</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 skillsleft">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/sun6.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Casual Shades</h5><br>
+                <h4>Price: ₹3,999</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                    <a routerLink="sunglasses1" class="btn btn-primary" (click)="sun('Casual Shades','assets/sun6.jfif','3,999' )">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillscenter">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/sun2.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Cool Shades</h5>
+                <h4>Price:₹2,999</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                    <a routerLink="sunglasses1" class="btn btn-primary" (click)="sun('Cool Shades','assets/sun2.jfif','2,999' )">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillsright">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/sun3.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Classy</h5>
+                <h4>Price:₹1,990</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                        <a routerLink="sunglasses1" class="btn btn-primary" (click)="sun('Classy','assets/sun3.jfif','1,990' )">Buy Now</a>
+                </div>
+            </div>
+        </div>
+<br><br>
+        <div class="col-md-4 skillsleft">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/sun4.jfif"class="card-img-top" height="250px">
+                <h5 class="card-title">Swimming Glass</h5>
+                <div class="card-body">
+                    <h4>Price:₹999</h4>
+                    <h6>include all taxes</h6>
+                <a routerLink="sunglasses1" class="btn btn-primary" (click)="sun('Swimming Glass','assets/sun4.jfif','999' )">Buy Now</a>
+                
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillcenter">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/sun5.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Super Classy</h5>
+                <div class="card-body">
+                    <h4>Price:₹5,999</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="sunglasses1" class="btn btn-primary" (click)="sun('Super Classy','assets/sun5.jfif','5,999' )">Buy Now</a>
+                
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillsright">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/sun6.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Frame with Chain</h5>
+                <div class="card-body">
+                    <h4>Price:₹2,099</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="sunglasses1" class="btn btn-primary" (click)="sun('Frame with Chain','assets/sun6.jfif','2,099' )">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+        <div class="col-md-4 skillsleft">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/sun7.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Classy Brown</h5>
+                <div class="card-body">
+                    <h4>Price:₹999</h4>
+                    <h6>include all taxes</h6>
+                    <a routerLink="sunglasses1" class="btn btn-primary" (click)="sun('classy Brown','assets/sun7.jfif','999' )">Buy Now</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillscenter">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/sun8.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Summer Shades</h5>
+                <h4>Price:₹455</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                    <a routerLink="sunglasses1" class="btn btn-primary" (click)="sun('Summer Shades','assets/sun8.jfif','455' )">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 skillsright">
+            <div class="card1" style="width: 15rem;">
+                <img src="assets/sun9.jfif" class="card-img-top" height="250px">
+                <h5 class="card-title">Pinky</h5>
+                <h4>Price:₹489</h4>
+                <h6>include all taxes</h6>
+                <div class="card-body">
+                    <a routerLink="sunglasses1" class="btn btn-primary" (click)="sun('Pinky','assets/sun9.jfif','489' )">Buy Now</a>
+                </div>
+            </div>
+        </div>
+</div>
+
